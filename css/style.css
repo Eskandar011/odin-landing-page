@@ -1,11 +1,13 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     display: flex;
     flex-direction: column;
 }
+
 header{
     display: flex;
     justify-content: space-around;
@@ -38,3 +40,43 @@ header .links a{
     text-decoration: none;
     color:#E5E7EB
 }
+
+
+.section1{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1F2937;
+    padding:100px;
+}
+.hero-text{
+    width: 400px;
+    height: 200px;
+}
+.main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8
+}
+.secondary-text{
+    font-size:18px;
+    color:#E5E7EB
+}
+.hero-text button{
+    background-color: #3882f6;
+    border:none;
+    padding: 4px 28px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+}
+.hero-img{
+    width: 400px;
+    background-color: gray;
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
