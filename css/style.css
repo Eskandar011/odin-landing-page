@@ -12,6 +12,7 @@ header{
     align-items: center;
     padding: 16px 0;
     background-color: #1F2937;
+    
 }
 header .logo a{
     display: flex;
@@ -19,25 +20,21 @@ header .logo a{
     gap: 10px;
     font-size: 18px;
     text-decoration: none;
-    color:white
+    color:white;
+    font-size: 24px;
 }
 
 
-header .logo img{
-    
-    width: 10%;
-    border-right: 1px solid black;
-    padding-right:10px;
-}
 
 header .links ul{
     font-size: 18px;
     list-style: none;
     display: flex;
-    gap:16px;
+    gap:20px;
+    
 }
 
 header .links a{
     text-decoration: none;
-    color:white
+    color:#E5E7EB
 }
