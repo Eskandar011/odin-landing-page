@@ -128,8 +128,37 @@ header .links a{
     font-style: italic;
 }
 
-.autor{
+.author{
     font-size: 18px;
     text-align: right;
     font-weight: bold;
+}
+
+/*Section4*/
+.section4{
+    display: flex;
+    justify-content: center;
+    padding:70px; 
+}
+.sign{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    background-color:#3882f6;
+    padding:30px 60px;
+    width:800px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.bold{
+    font-weight: bold;
+}
+.sign button{
+    
+    color: #fff;
+    padding: 0 30px;
+    border: 2px solid white;
+    background-color: #3882f6;
+    border-radius: 5px;
 }
